@@ -14,11 +14,6 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     // Define what rule sets will be applied
     $parameters->set(Option::SETS, [
         SetList::DEAD_CODE,
-        SetList::PHP_80,
-        SetList::CODE_QUALITY,
-        SymfonySetList::SYMFONY_52,
-        SymfonySetList::SYMFONY_CONSTRUCTOR_INJECTION,
-        SymfonySetList::SYMFONY_CODE_QUALITY
     ]);
 
     // get services (needed for register a single rule)
@@ -26,4 +21,3 @@ return static function (ContainerConfigurator $containerConfigurator): void {
 
     // register a single rule
 };
-
