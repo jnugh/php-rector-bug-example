@@ -7,9 +7,7 @@
         }
     ],
     "require-dev": {
-        "rector/rector": "^0.10.3"
+        "rector/rector": "dev-main"
     },
-    "require": {
-        "doctrine/orm": "^2.8"
-    }
+    "require": {}
 }
